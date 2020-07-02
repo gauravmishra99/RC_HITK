@@ -87,6 +87,7 @@ and open the template in the editor.
                     <img src="image/Luminaria/ANW_0136.JPG">
                     <img src="image/Rota Edu/hand's raised.JPG">
                     <img src="image/Rota Edu/inside hall group photo.JPG">
+                    <img src="image/Rota Edu com/inside hall group photo.jpg">
                 </div>
             </div>
         </div>
