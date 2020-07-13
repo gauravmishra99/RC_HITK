@@ -66,30 +66,113 @@ html,body{
   font-size: 4.5em;
   padding: 3rem;
 }
-.fa-facebook{
+.home_fb{
   color: #3b5998;
 }
-.fa-twitter{
+.home_twi{
   color: #00aced;
 }
-.fa-instagram{
+.home_ins{
   color: #3f729b;
 }
-.fa-youtube{
+.home_you{
   color: #bb0000;
 }
-.fa-google-plus-g{
+.home_g{
   color: #dd4b39;
 }
 
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-instagram:hover,
-.fa-youtube:hover,
-.fa-google-plus-g:hover{
+.home_fb:hover,
+.home_twi:hover,
+.home_ins:hover,
+.home_you:hover,
+.home_g:hover{
   color: #d5d5d5;
 }
+.leftpo{
+  background-image: linear-gradient(to right,#f84d16,#d6b416) !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex
+}
+.leftpo img{
+  border: 0.5rem solid rgb(255, 255, 255, 0.2);
+  width: 25%;
+  border-radius: 50%;
+}
 
+.content{
+  max-width: 75% !important;
+  text-align: center;
+}
+.content h1{
+  padding-top: 8px;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+.subheading{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#h_first{
+  background: -webkit-linear-gradient(right,#f84d16,#d6b416);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-icons{
+  padding-left: 5px;
+  padding-top: 8px;
+  text-align: center;
+}
+.social-icons a{
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #f84d16;
+  color: #fff !important;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  transition: .2s linear;
+}
+.none{
+  display: none !important;
+}
+.social-icons a:hover{
+  cursor: pointer;
+  color: #fff !important;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 10px grey;
+}
+.icons{
+  padding-top: 30px;
+}
+.icon{
+  font-size: 3rem;
+}
+.left_icon{
+  padding-left: 10px;
+}
+.right_icon{
+  padding-right: 10px;
+}
+.licons,
+.ricons{
+  font-size: 1.5rem;
+}
+.licons:hover{
+  cursor: pointer;
+}
+.ricons:hover{
+  cursor: pointer;
+}
 @media (max-width:992px){
   .social a {
     font-size: 4em !important;
@@ -112,6 +195,21 @@ html,body{
     font-size: 2.5em !important;
     padding: 2rem !important;
   }
+  .leftpo img{
+    border: 0.5rem solid rgb(255, 255, 255, 0.2);
+    width: 20%;
+    width: 40%;
+}
+  .content h1{
+    padding-top: 8px;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  .subheading{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }
 
 @media (max-width:576px){
@@ -131,5 +229,20 @@ html,body{
   .social a{
     font-size: 1.5em !important;
     padding: .7rem !important;
+  }
+  .content h1{
+    padding-top: 8px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  .subheading{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .social-icons a{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
   }
 }
